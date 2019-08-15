@@ -1,21 +1,12 @@
 import 'package:carousel_pro/carousel_pro.dart';
-// import 'package:flutter/material.dart';
-// import 'package:residemenu/residemenu.dart';
 import 'package:flutter/material.dart';
 import 'package:residemenu/residemenu.dart';
-
-
-
-
 class Home extends StatefulWidget{
   @override
   State<StatefulWidget> createState() {
     return HomeState();
   }
 }
-
-
-
 class HomeState extends State<Home> with TickerProviderStateMixin{
   MenuController _menuController;
   TextEditingController userName = TextEditingController();
@@ -123,7 +114,6 @@ class HomeState extends State<Home> with TickerProviderStateMixin{
             ),
           ),
         ],
-        
       ),
       child: Scaffold(
         appBar: AppBar(
